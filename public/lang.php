@@ -16,7 +16,7 @@ $lang->addDocument($spanish, 'spanish');
 $italian = strip_tags(file_get_contents($dir . "italian.data"));
 $lang->addDocument($italian, 'italian');
 $french = strip_tags(file_get_contents($dir . "french.data"));
-$lang->addDocument($french, 'french', true);
+$lang->addDocument($french, 'french', isset($_GET['display']));
 
 $italian = '
 Nel mezzo del cammin di nostra vita
