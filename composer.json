@@ -1,0 +1,14 @@
+{
+  "name": "melicerte/sorts",
+  "license": "mit",
+  "type": "educational",
+  "autoload": {
+    "psr-4": {
+      "Melicerte\\":"src"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "~6.0",
+    "symfony/dotenv": "^3.4"
+  }
+}
